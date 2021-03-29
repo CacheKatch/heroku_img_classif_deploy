@@ -2,7 +2,7 @@
 This file holds the classification function that its called
 by app.py file for image classification
 '''
-import keras
+from tensorflow import keras
 from PIL import Image, ImageOps
 import numpy as np
 
